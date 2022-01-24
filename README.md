@@ -1,1 +1,3 @@
-微信小程序：自定义tabbar的实践
+# 微信小程序：自定义tabbar的实践
+
+<font size="1"><div>配置在app.js文件中</div><div>隐藏系统tabbar就调用wx.hideTabBar()</div><div>在全局对象globalData中，设置自定义tabBar的路径和样式<br></div><div><div>tabBar: {</div><div>&nbsp; &nbsp; &nbsp; "backgroundColor": "#ffffff",</div><div>&nbsp; &nbsp; &nbsp; "color": "#979795",</div><div>&nbsp; &nbsp; &nbsp; "selectedColor": "#1c1c1b",</div><div>&nbsp; &nbsp; &nbsp; "list": [</div><div>&nbsp; &nbsp; &nbsp; &nbsp; {</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "pagePath": "/pages/index/index",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "iconPath": "icon/icon_home.png",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "selectedIconPath": "icon/icon_home_HL.png",</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "text": "首页"</div></div><div>&nbsp; &nbsp; &nbsp; &nbsp;}]</div><div>}</div></font>
